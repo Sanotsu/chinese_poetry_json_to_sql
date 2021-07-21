@@ -1,0 +1,21 @@
+{
+  "name": "chinese_poetry_json_to_sql",
+  "version": "1.0.0",
+  "description": "将开源库chinese-poetry中的诗词json文件转为sql文件的脚本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "中国诗词",
+    "sql",
+    "JavaScript"
+  ],
+  "author": "sanotsu",
+  "license": "ISC",
+  "dependencies": {
+    "load-json-file": "^6.2.0",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules
+.vscode/
+
+# 忽略所有log 文件夹 ** 表示任意多个层级匹配
+**/log     
+**/logs     
+# 忽略所有 .log 文件
+**.log      
+  
+# 忽略所有 json 文件夹
+**/json      
+
+# chinese-poetry-master库转sql,忽略原库的数据
+/chinese-poetry-master
